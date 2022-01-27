@@ -1,0 +1,347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grid",
+				"grid-template-columns"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"inl",
+				"inline-flex"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"id",
+				"width"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"paddig",
+				"padding-right"
+			],
+			[
+				"if",
+				"ife"
+			],
+			[
+				"footer",
+				"footerheight"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"tran",
+				"translateX()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"trans",
+				"translateY()"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"type",
+				"type13"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 502,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"reload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/ainextgen"
+	],
+	"file_history":
+	[
+		"/C/Users/angel/AppData/Local/Temp/Rar$DI01.594/bootstrap.css",
+		"/D/app/covid-tracker/public/index.html",
+		"/D/app/covid-tracker/src/components/HelloWorld.vue",
+		"/D/app/covid-tracker/src/main.js",
+		"/C/Users/angel/AppData/Roaming/Sublime Text/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/angel/Downloads/vb-hope-html-12-11-2021/request-form.html",
+		"/C/Users/angel/Downloads/vb-hope-html-12-11-2021/css/hope.css",
+		"/D/projects/vinebrook/latest-html-resident/index.html",
+		"/D/projects/vinebrook/latest-html-resident/css/resident.css",
+		"/C/Users/angel/Downloads/loader-vb.svg",
+		"/D/projects/vinebrook/emailer-latest/index.html",
+		"/D/projects/vinebrook/Houses & Properties For Rent By Owner In United States_VinebrookHomes.html",
+		"/D/projects/vinebrook/Houses & Properties For Rent By Owner In United States_VinebrookHomes_files/style.css",
+		"/D/projects/vinebrook/Houses & Properties For Rent By Owner In United States_VinebrookHomes_files/script.js(1).download",
+		"/D/projects/vinebrook/Houses & Properties For Rent By Owner In United States_VinebrookHomes_files/script.js.download",
+		"/D/projects/vinebrook/vendor-new-4-9-2021/index.html",
+		"/D/xampp/htdocs/wowitsolution/.gitignore",
+		"/C/Users/angel/Downloads/custom (4).css",
+		"/C/Users/angel/AppData/Local/Temp/fz3temp-2/responsive.css",
+		"/C/Users/angel/AppData/Local/Temp/fz3temp-2/local.css",
+		"/C/Users/angel/AppData/Local/Temp/fz3temp-2/dmcommerce.css",
+		"/C/Users/angel/AppData/Local/Temp/fz3temp-2/custom.css",
+		"/D/projects/ftmakeup/app/code/core/Mage/Checkout/Block/Cart/Minicart.php",
+		"/D/projects/ftmakeup/app/code/core/Mage/Checkout/Block/Cart.php",
+		"/D/projects/ftmakeup/header_type13.phtml",
+		"/D/projects/ftmakeup/local.css",
+		"/D/projects/ftmakeup/dmcommerce.css",
+		"/C/Users/angel/AppData/Local/Temp/fz3temp-2/bootstrap.min.css",
+		"/C/Users/angel/AppData/Local/Temp/fz3temp-2/bootstrap.css",
+		"/D/projects/ftmakeup/disable_border_radius.css",
+		"/D/projects/ftmakeup/header.phtml",
+		"/D/projects/ftmakeup/head.phtml",
+		"/D/projects/ftmakeup/sticky_header.phtml",
+		"/D/projects/vinebrook/vinebrook-resident-latest-html-desktop-12-7-2021/css/vendor-style.css",
+		"/D/xampp/htdocs/marathaco/wp-config.php",
+		"/D/projects/vibgyor/backup/vibgyor-11July2021/wp-content/uploads/visualizer/customization.js",
+		"/D/projects/vibgyor/backup/vibgyor-11July2021/wp-content/uploads/smuzformfiles-KllJMcwbCI2L6hwnTIH2czVZW/index.php",
+		"/D/projects/vinebrook/vinebrook-resident-latest-html-desktop-12-7-2021/home-maintenance.html",
+		"/D/projects/vinebrook/vinebrook-resident-latest-html-desktop-12-7-2021/request-maintenance-service.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/app/covid-tracker/src/views/About.vue",
+		"/D/app/covid-tracker/src/router/index.js",
+		"/D/app/covid-tracker/src/App.vue"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ainextgen.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.vu",
+				"src\\App.vue"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

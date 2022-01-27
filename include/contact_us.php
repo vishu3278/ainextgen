@@ -1,0 +1,199 @@
+<style type="text/css">
+  #contactForm .error{ color: red }
+  .contact #contactForm {
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+}
+
+.contact #contactForm .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.contact #contactForm .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.contact #contactForm .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact #contactForm input, .contact #contactForm textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.contact #contactForm input:focus, .contact #contactForm textarea:focus {
+  border-color: #4154f1;
+}
+
+.contact #contactForm input {
+  padding: 10px 15px;
+}
+
+.contact #contactForm textarea {
+  padding: 12px 15px;
+}
+
+.contact #contactForm button[type="submit"] {
+  background: #FF5821;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact #contactForm button[type="submit"]:hover {
+  background: #0092FF;
+}
+  
+</style>
+
+  <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>WTT, Sector 16, Noida</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91-9934393700</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@ainextgeninfotech.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>9:00AM - 06:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <!--  action="forms/contact.php" method="post" -->
+            <!-- class="php-email-form" -->
+            <form id="contactForm"  >
+              <div class="row gy-4">
+			  
+			  <div class="form-group col-md-12">
+			  <div class="error-message text-center"></div>
+			  </div>
+
+                <div class="col-md-6">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="text" id="phone" class="form-control" name="phone" placeholder="Your Phone" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" id="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                 <!--<div class="error-message"></div> -->
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button id="submitBtn" type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#contactForm').validate({
+           submitHandler: function(form) {
+ 
+             var name = $('#name').val();
+          var phone = $('#phone').val();
+          var email = $('#email').val();
+          var message = $('#message').val();
+          var parms_data={"name":name,"phone":phone,"email":email,"message":message};
+           $.ajax({
+          url: "forms/contact.php",
+          data: parms_data,
+          type: 'POST',
+          success: function (result) {
+            var data = JSON.parse(result);
+            if(data.status == 0)
+            {
+              $('.error-message').html('<div class="alert alert-success">'+data.msg+'</div>')
+            }
+            else
+            {
+              $('.error-message').html('<div class="alert alert-error">'+data.msg+'</div>')
+            }
+
+           }
+            });
+              
+            }
+         
+      })
+      });
+    </script>
