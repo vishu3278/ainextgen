@@ -23,7 +23,7 @@
 	//$site_url = "http://".$_SERVER['HTTP_HOST']."/"; //when server is on root DND
 
 
-	$site_url = "https://".$_SERVER['HTTP_HOST']."/kundan/"; //when Sub folder is Home directory DND
+	$site_url = "http://".$_SERVER['HTTP_HOST']."/ainextgen/"; //when Sub folder is Home directory DND
 
 
 	//$site_url = "http://localhost/kundan/Kundan_Realtime_Projects/P10_AI_NextGen_Infotech/"; //when Sub folder is Home directory DND  NOTE- Notice you don't need to use HTTPS use only http 

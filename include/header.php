@@ -1,3 +1,4 @@
+<?php include_once('connection.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,13 +52,13 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>/about-us.php">About us</a></li>
+          <li><a class="nav-link scrollto active" href="<?php echo BASEURL ?>">Home</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>about-us.php">About us</a></li>
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#services">Web Development</a></li>
               <li><a href="#services">Mobile App Development</a></li>
-			         <li><a href="#services">Software Testing</a></li>
+			         <li><a href="<?php echo BASEURL ?>testing.php">Software Testing</a></li>
 			         <li><a href="#services">Digital Marketing</a></li>
               <li><a href="#services">ERP Development</a></li>
               <li><a href="#services">Salesforce Development</a></li>
@@ -67,9 +68,9 @@
       			 <li><a href="#services">Data Sciences</a></li>		 
             </ul>
           </li>
-		      <li><a class="nav-link scrollto" href="https://ainextgeninfotech.com/training">Training & Certification</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Admission</a></li>
-          <li><a class="getstarted scrollto" href="#contact">Contact us</a></li>
+		      <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>training.php">Training & Certification</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>contact.php">Admission</a></li>
+          <li><a class="getstarted scrollto" href="<?php echo BASEURL ?>contact.php">Contact us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

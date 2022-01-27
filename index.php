@@ -7,5 +7,5 @@
 <?php include_once('include/faq.php');?>
 <?php include_once('include/testimonials.php');?>
 <?php /*include_once('include/clients.php'); */?>
-<?php include_once('include/contact_us.php');?>
+<?php include_once('include/contact-info.php');?>
 <?php include_once('include/footer.php');?>

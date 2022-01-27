@@ -1,21 +1,3 @@
-<?php 
-  $conn = mysqli_connect("localhost","root","","ainextgen") or die('Database connection issue');
-  
-  // Check connection
-  if (mysqli_connect_errno()) {
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-    exit();
-  }
-
-  // Perform query
-  if ($result = mysqli_query($conn, "SELECT * FROM contact_detail")) {
-    echo "Returned rows are: " . mysqli_num_rows($result);
-    // Free result set
-    mysqli_free_result($result);
-  }
-
-  mysqli_close($con);
-?>
 <style type="text/css">
   #contactForm .error{ color: red }
   .contact #contactForm {
@@ -99,9 +81,7 @@
           <p>Contact Us</p>
         </header>
 
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
+        <div class=" gy-4">
 
             <div class="row gy-4">
               <div class="col-md-6">
@@ -133,47 +113,6 @@
                 </div>
               </div>
             </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <!--  action="forms/contact.php" method="post" -->
-            <!-- class="php-email-form" -->
-            <form id="contactForm"  >
-              <div class="row gy-4">
-			  
-			  <div class="form-group col-md-12">
-			  <div class="error-message text-center"></div>
-			  </div>
-
-                <div class="col-md-6">
-                  <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="text" id="phone" class="form-control" name="phone" placeholder="Your Phone" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" id="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                 <!--<div class="error-message"></div> -->
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button id="submitBtn" type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-
-          </div>
 
         </div>
 
