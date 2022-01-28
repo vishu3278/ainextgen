@@ -7,5 +7,9 @@
 <?php include_once('include/faq.php');?>
 <?php include_once('include/testimonials.php');?>
 <?php /*include_once('include/clients.php'); */?>
-<?php include_once('include/contact-info.php');?>
+<section class="contact">
+    <div class="container" data-aos="fade-up">
+		<?php include_once('include/contact-info.php');?>
+    </div>
+</section>
 <?php include_once('include/footer.php');?>

@@ -5,7 +5,6 @@
     <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
       <div class="container">
-
         <ol>
           <li><a href="<?php echo BASEURL ?>">Home</a></li>
           <!-- <li><a href="blog.html">Contact</a></li> -->
@@ -15,15 +14,25 @@
       </div>
     </section>
 
-    <!-- ======= Blog Single Section ======= -->
-    <section id="blog" class="blog">
-      <div class="container" data-aos="fade-up">
-        <?php include_once('include/contact_us.php');?>
+    <section id="contact" class="contact">
+      <div class="container" >
+        <header class="section-header" data-aos="fade-down">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+        <div class="row">
+          <div class="col">
+            <?php include_once('include/contact-info.php');?>
+          </div>
+          <div class=" col">
+            <?php include_once('include/contact_us.php');?>
+          </div>
+        </div>
       </div>
-    </section><!-- End Blog Single Section -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
   <!-- ======= Footer ======= -->
   <?php include_once('include/footer.php') ?>
-  <!-- End Footer -->
+  

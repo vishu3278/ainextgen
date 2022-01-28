@@ -1,8 +1,8 @@
-<!-- ======= Hero Section ======= -->
+<!-- Hero Section -->
   <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
+        <div class="col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">A Leading Next Generation Software Development Company</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">We Bring Business Ideas to Reality</h2>
           <div data-aos="fade-up" data-aos-delay="600">
@@ -14,10 +14,11 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/hero-img.svg" class="img-fluid" alt="">
+        <div class="col-lg-6 col-xl-4 offset-xl-2 " data-aos="zoom-out" data-aos-delay="200">
+          <!-- <img src="assets/img/hero-img.svg" class="img-fluid" alt=""> -->
+          <?php include('include/enquiry-form.php') ?>
         </div>
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
 
