@@ -55,7 +55,18 @@
         <ul>
           <li><a class="nav-link scrollto active" href="<?php echo BASEURL ?>">Home</a></li>
           <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>about-us.php">About us</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>All Courses</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="<?php echo BASEURL ?>manual-testing.php">Manual Testing Training</a></li>
+              <li><a href="<?php echo BASEURL ?>automation-testing.php"><span>Automation Testing Training</span> </a></li>
+              <li><a href="<?php echo BASEURL ?>performance-testing.php"><span>Performance Testing Training</span> </a></li>
+              <li><a href="<?php echo BASEURL ?>api-testing.php"><span>API Testing Training</span> </a></li>
+              <li><a href="<?php echo BASEURL ?>mobile-testing.php">Mobile Testing (APPIUM)</a></li>
+              <li><a href="<?php echo BASEURL ?>database-testing.php">Database Testing</a></li>
+              <li><a href="<?php echo BASEURL ?>data-science-testing.php">Data Sciences</a></li>
+            </ul>
+          </li>
+          <!-- <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#services">Web Development</a></li>
               <li><a href="#services">Mobile App Development</a></li>
@@ -68,10 +79,21 @@
       			 <li><a href="#services">Machine Learning | Big Data</a></li>
       			 <li><a href="#services">Data Sciences</a></li>		 
             </ul>
+          </li> -->
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#services">Corporate Training</a></li>
+              <li><a href="#services">Fresher Training</a></li>
+              <li><a href="#services">College Campus Training</a></li>
+              <li><a href="#services">Summer Training</a></li>
+              <li><a href="#services">Winter Training</a></li>
+              <li><a href="#services">Industrial Training</a></li>
+              <li><a href="#services">Overseas &amp; Online Training</a></li>
+            </ul>
           </li>
 		      <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>training.php">Training & Certification</a></li>
-          <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>contact.php">Admission</a></li>
-          <li><a class="getstarted scrollto" href="<?php echo BASEURL ?>contact.php">Contact us</a></li>
+          <!-- <li><a class="nav-link scrollto" href="<?php echo BASEURL ?>contact.php">Admission</a></li> -->
+          <li><a class="getstarted scrollto" href="<?php echo BASEURL ?>contact.php">Enquire</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

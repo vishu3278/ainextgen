@@ -4,7 +4,7 @@
 <?php include_once('include/values.php');?>
 <?php include_once('include/services.php');?>
 <?php include_once('include/about_us.php');?>
-<?php include_once('include/faq.php');?>
+<?php /*include_once('include/faq.php');*/ ?>
 <?php include_once('include/testimonials.php');?>
 <?php /*include_once('include/clients.php'); */?>
 <section class="contact">

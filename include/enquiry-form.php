@@ -1,10 +1,10 @@
 
 
   <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-
+    <section class="contact">
       <form id="contactForm"  >
-        <div class="row gy-4">
+        <h4>Enquire</h4>
+        <div class="row gy-3">
 			  
   			  <div class="form-group col-md-12">
   			   <div class="error-message text-center"></div>
@@ -31,9 +31,9 @@
             </select>
           </div>
 
-          <div class="col-md-12">
+          <!-- <div class="col-md-12">
             <textarea class="form-control" id="message" name="message" rows="2" placeholder="Message" ></textarea>
-          </div>
+          </div> -->
 
           <div class="col-md-12 text-center">
             <div class="loading">Loading</div>
@@ -52,32 +52,24 @@
       $(document).ready(function () {
         $('#contactForm').validate({
            submitHandler: function(form) {
- 
-             var name = $('#name').val();
-          var phone = $('#phone').val();
-          var email = $('#email').val();
-          var message = $('#message').val();
-          var parms_data={"name":name,"phone":phone,"email":email,"message":message};
-           $.ajax({
-          url: "forms/contact.php",
-          data: parms_data,
-          type: 'POST',
-          success: function (result) {
-            var data = JSON.parse(result);
-            if(data.status == 0)
-            {
-              $('.error-message').html('<div class="alert alert-success">'+data.msg+'</div>')
-            }
-            else
-            {
-              $('.error-message').html('<div class="alert alert-error">'+data.msg+'</div>')
-            }
-
-           }
+            var name = $('#name').val();
+            var phone = $('#phone').val();
+            var email = $('#email').val();
+            var parms_data={"name":name,"phone":phone,"email":email};
+            $.ajax({
+              url: "forms/contact.php",
+              data: parms_data,
+              type: 'POST',
+              success: function (result) {
+                var data = JSON.parse(result);
+                if(data.status == 0){
+                  $('.error-message').html('<div class="alert alert-success">'+data.msg+'</div>')
+                } else {
+                  $('.error-message').html('<div class="alert alert-error">'+data.msg+'</div>')
+                }
+              }
             });
-              
-            }
-         
-      })
+          }
+        })
       });
     </script>

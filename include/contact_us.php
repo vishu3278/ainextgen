@@ -1,21 +1,3 @@
-<?php 
-  $conn = mysqli_connect("localhost","root","","ainextgen") or die('Database connection issue');
-  
-  // Check connection
-  if (mysqli_connect_errno()) {
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-    exit();
-  }
-
-  // Perform query
-  if ($result = mysqli_query($conn, "SELECT * FROM contact_detail")) {
-    echo "Returned rows are: " . mysqli_num_rows($result);
-    // Free result set
-    mysqli_free_result($result);
-  }
-
-  mysqli_close($con);
-?>
 
 <form id="contactForm" data-aos="fade-up" data-aos-delay="400" >
   <div class="row gy-4">
@@ -37,7 +19,7 @@
     </div>
 
     <div class="col-md-12">
-      <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" required></textarea>
+      <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message" required></textarea>
     </div>
 
     <div class="col-md-12 text-center">
