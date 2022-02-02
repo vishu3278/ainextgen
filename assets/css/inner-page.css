@@ -1,0 +1,22 @@
+.page-banner {
+  /*background: url(../img/img-imp/software-testing.jpg) top center no-repeat;*/
+	background: #f6f9ff;
+	background: linear-gradient(0deg, #f6f9ff 0%, #fff 100%); 
+	background-size: cover;
+	border-bottom: 1px solid #e1ecff;
+ }
+.inner-page .content h2,
+.inner-page .content h3,
+.inner-page .content h4 { font-weight: 600; color: #0092FF; }
+.inner-page .content p,
+.inner-page .content li { text-align: justify; }
+.inner-page .contact { padding-top: 2rem; position: sticky; top: 80px; left: 0; }
+.inner-page .course-faq .accordion-button,
+.inner-page .course-faq .accordion-body { padding-left: 0; padding-right: 0; }
+.inner-page .course-faq .accordion-button:focus { outline: none; box-shadow: none; background: none; }
+.inner-page .values .box h4 {
+  font-size: 24px;
+  color: #0092FF;
+  font-weight: 700;
+  margin-bottom: 18px;
+}

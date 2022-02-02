@@ -2,7 +2,7 @@
 
   <!-- ======= Contact Section ======= -->
     <section class="contact">
-      <form id="contactForm"  >
+      <form id="contactForm" data-aos="zoom-out" data-aos-delay="400" >
         <h4>Enquire</h4>
         <div class="row gy-3">
 			  
@@ -40,7 +40,7 @@
            <!--<div class="error-message"></div> -->
             <div class="sent-message">Your message has been sent. Thank you!</div>
 
-            <button id="submitBtn" type="submit">Send Message</button>
+            <button id="submitBtn" type="submit">Submit</button>
           </div>
 
         </div>
