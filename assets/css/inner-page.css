@@ -7,7 +7,7 @@
  }
 .inner-page .content h2,
 .inner-page .content h3,
-.inner-page .content h4 { font-weight: 600; color: #0092FF; }
+.inner-page .content h4 { font-weight: 600; color: var(--blue, #0092FF); }
 .inner-page .content p,
 .inner-page .content li { text-align: justify; }
 .inner-page .contact { padding-top: 2rem; position: sticky; top: 80px; left: 0; }
@@ -16,7 +16,7 @@
 .inner-page .course-faq .accordion-button:focus { outline: none; box-shadow: none; background: none; }
 .inner-page .values .box h4 {
   font-size: 24px;
-  color: #0092FF;
+  color: var(--blue, #0092FF);
   font-weight: 700;
   margin-bottom: 18px;
 }

@@ -10,6 +10,30 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
+
+  --blue-light3: #d4e9f7;
+  --blue-light2: #a9d3ef;
+  --blue-light1: #7dbee8;
+  --blue: #2792d8;
+  --blue-dark1: #1f75ad;
+  --blue-dark2: #175882;
+  --blue-dark3: #103a56;
+
+  --orange-light3: #feedd7;
+  --orange-light2: #fcd6a6;
+  --orange-light1: #fbc074;
+  --orange: #f89311;
+  --orange-dark1: #d07806;
+  --orange-dark2: #9e5b05;
+  --orange-dark3: #6d3f03;
+
+  --grey-light3: #c0c1c3;
+  --grey-light2: #a7a8a9;
+  --grey-light1: #8d8e90;
+  --grey: #5a5b5d;
+  --grey-dark1: #414243;
+  --grey-dark2: #282829;
+  --grey-dark3: #0f0f0f;
 }
 
 body {
@@ -18,12 +42,12 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: var(--blue-dark1);
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: var(--blue-dark2);
   text-decoration: none;
 }
 
@@ -49,7 +73,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #FF5821;
+  color: var(--orange, #FF5821);
   text-transform: uppercase;
 }
 
@@ -59,7 +83,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #031739;
+  color: var(--blue-dark3);
 }
 
 @media (max-width: 768px) {
@@ -74,7 +98,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: var(--blue-dark3, #012970);
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -82,7 +106,7 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 57px;
+    margin-top: 80px;
   }
 }
 
@@ -130,7 +154,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: var(--blue-light1);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -144,7 +168,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: var(--blue);
   color: #fff;
 }
 
@@ -236,11 +260,11 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: ##0092FF;
+  color: var(--blue-dark1, #0092FF);
 }
 
 .navbar .getstarted {
-  background: #0092FF;
+  background: var(--blue, #0092FF);
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -284,7 +308,7 @@ section {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: var(--blue-dark1);
 }
 
 .navbar .dropdown:hover > ul {
@@ -347,7 +371,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: var(--blue-dark3, rgba(1, 22, 61, 0.9));
   transition: 0.3s;
 }
 
@@ -432,12 +456,12 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #0092FF;
+  color: var(--blue, #0092FF);
 }
 .page-banner h1 { font-size: 36px; }
 .page-banner h2,
 .hero h2 {
-  color: #444444;
+  color: var(--grey, #444444);
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -449,7 +473,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #FF5821;
+  background: var(--orange, #FF5821);
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .page-banner .btn-get-started span,
@@ -524,14 +548,14 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #FF5821;
+  color: var(--orange, #FF5821);
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: var(--blue-dark3, #012970);
 }
 
 .about p {
@@ -545,7 +569,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #FF5821;
+  background: var(--orange, #FF5821);
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
@@ -585,7 +609,7 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #0092FF;
+  color: var(--blue, #0092FF);
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -618,14 +642,14 @@ section {
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: #4154f1;
+  color: var(--blue-dark1);
 }
 
 .counts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #0b198f;
+  color: var(--blue-dark2);
 }
 
 .counts .count-box p {
@@ -663,7 +687,7 @@ section {
 }
 
 .features .feature-box:hover i {
-  background: #FF5821;
+  background: var(--orange, #FF5821);
   color: #fff;
 }
 
@@ -1571,12 +1595,12 @@ section {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #0092FF;
+  color: var(--blue, #0092FF);
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #ff5821;
+  color: var(--orange, #ff5821);
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -2304,13 +2328,13 @@ section {
 }
 
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  color: var(--blue-dark3, #012970);
 }
 
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: var(--blue-dark3, #012970);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;

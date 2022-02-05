@@ -46,9 +46,9 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.php" class="logo d-flex align-items-center">
-       <!-- <img src="assets/img/logo.png" alt="">-->
+        <img src="assets/img/logo.jpeg" alt="logo">
         
-		<span style="color:#0092FF">AI</span> <span style="color:#0092FF; margin-left:5px;">NextGen</span>  <span style="color:#FF5821;margin-left:5px;">  Infotech</span>
+		<!-- <span style="color:#0092FF">AI</span> <span style="color:#0092FF; margin-left:5px;">NextGen</span>  <span style="color:#FF5821;margin-left:5px;">  Infotech</span> -->
       </a>
 
       <nav id="navbar" class="navbar">

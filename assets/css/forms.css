@@ -52,7 +52,7 @@
 .contact #contactForm input:focus,
 .contact #contactForm select:focus,
 .contact #contactForm textarea:focus {
-    border-color: #4154f1;
+    border-color: var(--blue-light1);
 }
 
 .contact #contactForm input {
@@ -64,7 +64,7 @@
 }
 
 .contact #contactForm button[type="submit"] {
-    background: #FF5821;
+    background: var(--orange, #FF5821);
     border: 0;
     padding: 10px 30px;
     color: #fff;
@@ -73,5 +73,5 @@
 }
 
 .contact #contactForm button[type="submit"]:hover {
-    background: #0092FF;
+    background: var(--orange-dark1);
 }

@@ -19,10 +19,10 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <!--<img src="assets/img/logo.png" alt="">-->
+              <img src="assets/img/logo.jpeg" alt="logo">
 			  
               
-			  <span style="color:#0092FF">AI</span> <span style="color:#0092FF; margin-left:5px;">NextGen</span>  <span style="color:#FF5821;margin-left:5px;">  Infotech</span>
+			         <!-- <span style="color:#0092FF">AI</span> <span style="color:#0092FF; margin-left:5px;">NextGen</span>  <span style="color:#FF5821;margin-left:5px;">  Infotech</span> -->
             </a>
             <p>We are a dynamic team of creatives people of innovation & Marketing Expert.Right from the very beginning, We had a clear vision- To build a team of committed and reliable people who can assist Businesses in their Digital Transformation Journey by helping develop innovative and revenue generating Software Solutions.</p>
             <div class="social-links mt-3">
@@ -74,7 +74,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span style="color:#0092FF">AI</span> <span style="color:#0092FF; margin-left:1px;">NextGen</span>  <span style="color:#FF5821;margin-left:1px;">  Infotech</span></strong>. All Rights Reserved
+        &copy; Copyright <strong>AI NextGen Infotech</strong>. All Rights Reserved
       </div>
 
     </div>
